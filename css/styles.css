@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');@import url('https://fonts.googleapis.com/css?family=Roboto');
+<--Header starts__>
 
+body {
+  font-family:
+  'Roboto', sans-serif;
 
+}
+/*Header styles*/
 .brand {
   font-family: 'Satisfy', cursive;
   color: #fd837E; // base orange
@@ -42,3 +48,10 @@
    background-position: center;
    background-size: cover;
  }
+ .flex {
+ display: flex;
+ height: 100%;
+ justify-content: space-between;
+ align-items: center; 
+}
+ .container
